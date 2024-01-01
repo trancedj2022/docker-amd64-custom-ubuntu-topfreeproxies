@@ -1,0 +1,32 @@
+[36mINFO[0m[2024-01-01T01:11:30.81682095Z] Start initial configuration in progress      
+[33mWARN[0m[2024-01-01T01:11:30.81765433Z] Wrong protocol-param for auth_aes128_sha1, only digits are expected before ':' 
+[36mINFO[0m[2024-01-01T01:11:30.819230971Z] Geodata Loader mode: memconservative         
+[36mINFO[0m[2024-01-01T01:11:30.826627662Z] Initial configuration complete, total time: 9ms 
+[36mINFO[0m[2024-01-01T01:11:30.827001038Z] RESTful API listening at: [::]:9091          
+[36mINFO[0m[2024-01-01T01:11:30.836674399Z] Sniffer is closed                            
+[36mINFO[0m[2024-01-01T01:11:30.83675002Z] HTTP proxy listening at: [::]:7891           
+[36mINFO[0m[2024-01-01T01:11:30.836817866Z] SOCKS proxy listening at: [::]:7892          
+[36mINFO[0m[2024-01-01T01:11:30.83686835Z] Start initial compatible provider 🤘 手动选择     
+[36mINFO[0m[2024-01-01T01:11:30.836916236Z] Start initial compatible provider 🍎 苹果服务     
+[36mINFO[0m[2024-01-01T01:11:30.836968922Z] Start initial compatible provider 台湾         
+[36mINFO[0m[2024-01-01T01:11:30.836988856Z] Start initial compatible provider 🐟 漏网之鱼     
+[36mINFO[0m[2024-01-01T01:11:30.837014537Z] Start initial compatible provider 狮城         
+[36mINFO[0m[2024-01-01T01:11:30.836921459Z] Start initial compatible provider 🌏 东亚地区     
+[36mINFO[0m[2024-01-01T01:11:30.836970921Z] Start initial compatible provider 🌎 北美地区     
+[36mINFO[0m[2024-01-01T01:11:30.836922373Z] Start initial compatible provider 📺 国外媒体     
+[36mINFO[0m[2024-01-01T01:11:30.836932952Z] Start initial compatible provider 香港         
+[36mINFO[0m[2024-01-01T01:11:30.836935675Z] Start initial compatible provider 美国         
+[36mINFO[0m[2024-01-01T01:11:30.836937291Z] Start initial compatible provider 🏳️‍🌈 国家选择  
+[36mINFO[0m[2024-01-01T01:11:30.836957496Z] Start initial compatible provider 🚀 节点选择     
+[36mINFO[0m[2024-01-01T01:11:30.8369651Z] Start initial compatible provider 🧱 国内网站     
+[36mINFO[0m[2024-01-01T01:11:30.836965152Z] Start initial compatible provider ⚡ 故障转移     
+[36mINFO[0m[2024-01-01T01:11:30.836971093Z] Start initial compatible provider ♻️ 自动选择    
+[36mINFO[0m[2024-01-01T01:11:30.836976461Z] Start initial compatible provider 🌍 其它地区     
+[36mINFO[0m[2024-01-01T01:11:30.836977555Z] Start initial compatible provider 日本         
+[36mINFO[0m[2024-01-01T01:11:30.836983196Z] Start initial compatible provider Ⓜ️ 微软服务    
+[36mINFO[0m[2024-01-01T01:11:30.8369815Z] Start initial compatible provider default    
+[36mINFO[0m[2024-01-01T01:11:30.837008896Z] Start initial compatible provider 韩国         
+[33mWARN[0m[2024-01-01T01:11:31.040419213Z] because 美国 failed multiple times, active health check 
+[36mINFO[0m[2024-01-01T01:11:32.167907448Z] [TCP] 127.0.0.1:40778(curl) --> api.github.com:443 match DomainKeyword(github) using 🚀 节点选择[🇯🇵 JP(AzadNet.t.me)_039] 
+[36mINFO[0m[2024-01-01T01:11:33.271560154Z] [TCP] 127.0.0.1:40786(wget) --> github.com:443 match DomainKeyword(github) using 🚀 节点选择[🇯🇵 JP(AzadNet.t.me)_039] 
+[36mINFO[0m[2024-01-01T01:11:33.834285989Z] [TCP] 127.0.0.1:40790(wget) --> objects.githubusercontent.com:443 match DomainKeyword(github) using 🚀 节点选择[🇯🇵 JP(AzadNet.t.me)_039] 
