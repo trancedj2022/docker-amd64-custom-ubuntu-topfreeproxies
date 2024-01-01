@@ -200,5 +200,12 @@
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 星标统计
-[![Star History Chart](https://api.star-history.com/svg?repos=smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&type=Date)](https://star-history.com/#smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&Date)
+[![Star History Chart]<a href="https://star-history.com/#smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies&type=Date" />
+  </picture>
+</a>
+
 
