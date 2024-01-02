@@ -5,99 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9091
 proxies:
-  - {name: 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_037, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR(AzadNet.t.me)_011, server: 43.201.53.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35, server: cm-cdn.kfcvme50.life, port: 2095, type: vmess, uuid: 7b529a8b-d306-4744-b4e5-c29aaa42ec0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us3.kfcvme50.life}}}
   - {name: 🇰🇷 KR(AzadNet.t.me)_012, server: 43.201.253.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: b11.ntbq.dynu.net, port: 5643, type: vmess, uuid: 847bfa48-992d-4634-904f-be77beb390ce, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian, server: 13.215.184.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: c11.twtc.dynu.net, port: 6899, type: vmess, uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_039, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS, server: 144.24.87.186, port: 46527, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: lovehjq.xyz, skip-cert-verify: true}
   - {name: 🇭🇰 香港 04 | 专线, server: hk4.b46a9769-77dd-93c9-0354-5902353bdae8.66dc3db5.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_041, server: 185.172.113.182, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇭🇰 香港 02 | 专线, server: hk2.b46a9769-77dd-93c9-0354-5902353bdae8.24ba0f77.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 github.com/freefq - 日本东京阿里云 13, server: 47.245.2.84, port: 80, type: vmess, uuid: cef51002-47b0-4e48-9d91-850e15ff95e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpyx.651568.xyz}}}
+  - {name: 🇭🇰 HK(AzadNet.t.me)_003, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 13.125.198.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2, server: 15.165.15.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新, server: 139.162.125.97, port: 49499, type: vmess, uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR(AzadNet.t.me)_014, server: 3.35.131.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 台湾省桃园市 中华电信, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 01 | 专线, server: jp1.b46a9769-77dd-93c9-0354-5902353bdae8.7adf211e.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_008, server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com}}}
+  - {name: 🇸🇬 新加坡 - 新加坡 - HotRoute - 66, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本 V2CROSS.COM, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_008, server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com}}}
+  - {name: 🇭🇰 香港【付费推荐：https//jdyvip.link/】270, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: false}
+  - {name: "🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71", server: Singapore.genzpvpt.com, port: 443, type: trojan, password: a841d5a5-e904-45df-af51-092051117008, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 01 | 专线, server: jp1.b46a9769-77dd-93c9-0354-5902353bdae8.7adf211e.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
   - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59", server: 8.217.17.254, port: 443, type: trojan, password: 84b5b76e-3fdf-4673-bee0-959181c6b702, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT, server: nat44.xg-node.com, port: 33309, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ..., server: nat44.xg-node.com, port: 33309, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体, server: nat33.xg-node.com, port: 36489, type: vmess, uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165", server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57, server: 118.142.31.198, port: 443, type: trojan, password: b5fa1af85e794f768f594d25fa4bbe41, sni: www.gpt123.one, skip-cert-verify: true}
-  - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55", server: sg1.loadingip.com, port: 443, type: vmess, uuid: 625f767f-6d74-4f70-8ef4-fdee09bcc171, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.loadingip.com}}}
-  - {name: 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新, server: nb36.ntbq.dynu.net, port: 4211, type: vmess, uuid: 847bfa48-992d-4634-904f-be77beb390ce, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65", server: singvip.ht4gvpn.com, port: 80, type: vmess, uuid: a0fd6d4e-854f-4e82-a2da-ac0b9a9cb49d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: singvip.ht4gvpn.com}}}
-  - {name: 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189, server: 70.34.205.59, port: 443, type: vmess, uuid: 01596265-168b-46a7-bcb7-25662c7a9546, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hdfy7c1.cpionline.co}}}
-  - {name: 🇭🇰 Hong Kong 7, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41, server: dnspsdhaitun.ncsuwei.top, port: 12001, type: vmess, uuid: 8ceeddd2-0754-3592-a134-db85f82e1253, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dnspsdhaitun.ncsuwei.top}}}
-  - {name: 🇨🇳 github.com/freefq - 台湾省  90, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54, server: 172.105.126.44, port: 80, type: vmess, uuid: 70e8f236-d08d-4c93-a2f6-7a18034d10e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 github.com/freefq - 台湾省  95, server: 45.121.48.172, port: 10001, type: vmess, uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96, server: tj-tw02.yiyo2way.xyz, port: 9980, type: trojan, password: e8d23f6d-b1b3-3bec-a67a-b8b3df55aa95, skip-cert-verify: false}
-  - {name: 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2, server: sg2-full.privateip.net, port: 443, type: vmess, uuid: bde7932e-8f52-4f7e-b92e-ad1cd0908784, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sg2-full.privateip.net}}}
+  - {name: 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 中国 - 香港 - Akari Networks - 1%%, server: zx02.endhigh.xyz, port: 2409, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 46961:1210-T%, obfs-param: 5d3ee46961.microsoft.com}
+  - {name: 🇨🇳 github.com/freefq - 台湾省  78, server: 45.121.48.172, port: 10001, type: vmess, uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧, server: 45.66.134.176, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.203, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧, server: 52.197.66.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国 3 3, server: 144.202.84.47, port: 57848, type: vmess, uuid: e48643e7-0462-4055-f796-6ca6aa9f946d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 github.com/freefq - 台湾省  66, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}}
+  - {name: 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧, server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧, server: jparm.fineyoo.cf, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
+  - {name: 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧, server: jparm.fineyoo.ml, port: 443, type: vmess, uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.ml}}}
+  - {name: 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧, server: jpamd.fineyoo.ml, port: 443, type: vmess, uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jpamd.fineyoo.ml}}}
+  - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
+  - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
+  - {name: "🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217", server: 185.160.24.217, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138", server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164", server: 217.197.161.164, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166", server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152", server: 81.90.189.152, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18", server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60", server: 43.207.66.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225", server: 54.169.86.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29", server: 54.179.75.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158", server: 172.104.123.158, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: "🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165", server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
+  - {name: 🇯🇵 -日本-43.206.229.96, server: 43.206.229.96, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: ab93117422.jd.h%%�%�}
+  - {name: 🇯🇵 -日本-43.201.33.9, server: 43.201.33.9, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: ab93117422.jd.h%%�%�}
+  - {name: 🇸🇬 -新加坡-51.79.222.99, server: 51.79.222.99, port: 443, type: ssr, cipher: aes-256-ctr, password: bypasser2020qwerty, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "��#:����}�������\x1d��]�|@.������ߴߞ>��ߝۧ�.��{�.�\x17��񨫦��.:?\t�˫", obfs-param: ""}
   - {name: 🇺🇸 _US_美国 13 3, server: 104.237.128.72, port: 14432, type: vmess, uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US(AzadNet.t.me)_120, server: 154.90.39.63, port: 45343, type: vmess, uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 8 3, server: 38.180.33.136, port: 50104, type: vmess, uuid: 790f6802-7535-4109-de6d-15f676d5e3f7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 13 4, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: 🇺🇸 美国 Microsoft公司, server: 52.142.161.9, port: 34424, type: ss, cipher: chacha20-ietf-poly1305, password: 64LbKHnB3IO759ueEnhgMG}
-  - {name: 🇺🇸 github.com/freefq - 北美地区  58, server: 104.234.202.187, port: 24422, type: ss, cipher: aes-256-gcm, password: qw7lnQ2zj3}
-  - {name: 🇺🇸 US(AzadNet.t.me)_004, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
-  - {name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚, server: frontend.kuangbiaoyun.com, port: 40005, type: trojan, password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.17.129.28, port: 8080, type: vmess, uuid: 94242109-0930-427f-f899-15d34021130c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.openxai.link}}}
-  - {name: 🇺🇸 github.com/freefq - 美国Microsoft公司 4, server: 52.142.146.57, port: 50395, type: ss, cipher: chacha20-ietf-poly1305, password: zpgPBiYXEhOwgwpCTaoTui}
-  - {name: "🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69", server: 38.68.134.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US(AzadNet.t.me)_343, server: 23.134.94.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: "🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87", server: 38.143.66.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 115, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
-  - {name: 🇺🇸 _US_美国 8, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US(AzadNet.t.me)_349, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US(AzadNet.t.me)_347, server: 38.121.43.65, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 US(AzadNet.t.me)_345, server: 38.91.102.30, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 US(AzadNet.t.me)_351, server: 38.121.43.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 _US_美国 13, server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 _US_美国 21, server: 68.183.159.199, port: 2092, type: vmess, uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /telegram:@hkaa0, headers: {Host: 68.183.159.199}}}
+  - {name: 🇺🇸 _US_美国 7, server: 172.233.188.217, port: 55579, type: vmess, uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 5 5, server: www.visa.com, port: 2082, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgtow_cdn.yunjisuan.cf}}}
+  - {name: 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅, server: 154.90.39.63, port: 45343, type: vmess, uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 Microsoft公司, server: 52.142.146.57, port: 50395, type: ss, cipher: chacha20-ietf-poly1305, password: zpgPBiYXEhOwgwpCTaoTui}
+  - {name: 🇺🇸 美国 03 | 专线, server: us3.b46a9769-77dd-93c9-0354-5902353bdae8.47253001.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
   - {name: 🇺🇸 US(AzadNet.t.me)_346, server: 38.75.136.135, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014, server: 5.8.41.89, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YaXvybxrP9HL79Gfltym9bw/5QIQAW/f}
-  - {name: CH(AzadNet.t.me)_004, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2, server: 13.215.184.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: UA(AzadNet.t.me)_002, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: github.com/freefq - 乌克兰  99, server: es1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 4c4eb1a2-4352-4b02-8d31-68fff24537a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: es1-vmess.sshmax.xyz}}}
-  - {name: 🇩🇪 德国 v2rayfree.eu.org, server: 5.252.23.173, port: 2082, type: vmess, uuid: d70a32b5-5d4b-4ebe-adf6-8f34c73871d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 乌克兰 V2CROSS.COM, server: 94.131.12.245, port: 37726, type: ss, cipher: chacha20-ietf-poly1305, password: AK4J1sRt2v3dLDUVC2P5lj}
-  - {name: "-2478-VN【ccbaohe.com〗 永久免费节点机场\r", server: inet.5gsieutocdo.com, port: 443, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, skip-cert-verify: true}
-  - {name: CY(AzadNet.t.me), server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: PA(AzadNet.t.me), server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇵🇱 PL(AzadNet.t.me)_031, server: 217.30.10.68, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
-  - {name: 🇷🇺 _RU_俄罗斯联邦 2 6, server: avazbek-russian.duckdns.org, port: 8080, type: vmess, uuid: d0fd80a1-0a99-43ea-a18c-046c5106a961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: avazbek-russian.duckdns.org}}}
+  - {name: "🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87", server: 38.143.66.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69", server: 38.68.134.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 _US_美国 8, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US(AzadNet.t.me)_345, server: 38.91.102.30, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 US(AzadNet.t.me)_343, server: 23.134.94.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 _US_美国 13, server: 38.91.107.37, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 US(AzadNet.t.me)_351, server: 38.121.43.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US(AzadNet.t.me)_347, server: 38.121.43.65, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 US(AzadNet.t.me)_054, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
+  - {name: 🇺🇸 US(AzadNet.t.me)_349, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 _US_美国 5 4, server: 172.67.84.174, port: 443, type: vmess, uuid: D8813DCB-426C-4952-B384-8951B0444EC1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/speedtest?ed=2048", headers: {Host: kansas.Kotick.site}}}
+  - {name: 🇨🇦 12|加拿大 333, server: fdvinacs.66666654.xyz, port: 2052, type: vmess, uuid: 50a029a5-2d6f-46eb-a1fe-612ff152fe21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /lonan, headers: {Host: hkda001.qkhbyf.tech}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: au.takeshi.wiki, port: 80, type: vmess, uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft公司 6, server: 52.142.161.9, port: 34424, type: ss, cipher: chacha20-ietf-poly1305, password: 64LbKHnB3IO759ueEnhgMG}
+  - {name: 🇺🇸 US(AzadNet.t.me)_359, server: 5.8.41.89, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YaXvybxrP9HL79Gfltym9bw/5QIQAW/f}
+  - {name: "🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19", server: 45.144.30.202, port: 28490, type: ss, cipher: chacha20-ietf-poly1305, password: yZdRgske85Hou96z2dRdtH}
   - {name: IM(AzadNet.t.me)_003, server: 192.71.211.161, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇲🇾 MY|频道 t.me/SSRSUB, server: 107.186.200.127, port: 43213, type: vmess, uuid: 2da2fb9c-d903-4550-bf75-9992cc282bd1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 RU(AzadNet.t.me)_002, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: NO(AzadNet.t.me)_002, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇮🇷 _IR_伊朗 3, server: 91.107.172.128, port: 3350, type: vmess, uuid: 2bf900ac-909a-4610-dc18-86a3a136b286, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇱 PL(AzadNet.t.me)_050, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇷🇺 _RU_俄罗斯联邦 2 6, server: 89.221.224.12, port: 80, type: vmess, uuid: c692f74a-9314-48ea-92e2-c4179e0dacbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 89.221.224.12}}}
+  - {name: LT(AzadNet.t.me)_002, server: 185.140.209.74, port: 24224, type: ss, cipher: chacha20-ietf-poly1305, password: C9Bj8nLTngraUjrwk82Ax7}
+  - {name: github.com/freefq - 欧盟  5, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
+  - {name: 🇮🇳 -3450-IN【ccbaohe.com〗 永久免费节点机场, server: 103.82.133.201, port: 443, type: trojan, password: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, skip-cert-verify: true}
+  - {name: PA(AzadNet.t.me), server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: AR(AzadNet.t.me)_002, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: CO(AzadNet.t.me), server: 190.120.231.45, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 113.20.28.102|频道 t.me/SSRSUB, server: 113.20.28.102, port: 22188, type: vmess, uuid: 00677eb4-91c2-41f1-e790-963b9a093fd5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 RU(AzadNet.t.me)_018, server: 212.113.106.243, port: 12949, type: ss, cipher: chacha20-ietf-poly1305, password: P2zxXPewlV3BlfqqYiSthvtLc}
-  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
-  - {name: "12|رایگان | VMESS | @DailyV2RY | ... #1", server: best-charm-pediatrician.glitch.me, port: 443, type: vmess, uuid: 1d5fb496-19fb-48fb-9880-a147326dee62, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess, headers: {Host: best-charm-pediatrician.glitch.me}}}
+  - {name: 🇷🇺 _RU_俄罗斯联邦 6, server: els_trojanone.yunjisuan.cf, port: 14866, type: trojan, password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, sni: els_trojanone.yunjisuan.cf, skip-cert-verify: true}
   - {name: MX(AzadNet.t.me), server: 190.103.179.23, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇿 捷克 V2CROSS.COM, server: 109.123.230.157, port: 80, type: vmess, uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: internet.life.com.by}}}
-  - {name: 🇻🇳 github.com/freefq - 越南  29, server: 103.82.134.110, port: 80, type: vmess, uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ongtrumdata.com}}
+  - {name: CO(AzadNet.t.me), server: 190.120.231.45, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: CL(AzadNet.t.me), server: 190.120.230.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇿 捷克 V2CROSS.COM, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇫🇷 FR(AzadNet.t.me)_131, server: bia-t-o.outline-vpn.cloud, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇰🇿 哈萨克斯坦_121320002, server: kz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 0a6ae6c5-e1f8-411c-8f11-cfa5433c58e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: kz1-vmess.sshmax.xyz}}}
+  - {name: "🇺🇸 11,12|@Hope_Net-join-us-on-Telegram #1", server: 104.19.54.50, port: 2096, type: vmess, uuid: e9324568-1255-43a3-8852-687b6e118d24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b2yu2boo2nm.mobile-lavazemjanebi.online}}}
+  - {name: FI(AzadNet.t.me)_003, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇻🇳 越南 - 荣市 - TOTHOST - 219, server: 103.197.184.151, port: 443, type: trojan, password: 70e8f236-d08d-4c93-a2f6-7a18034d10e9, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: EC(AzadNet.t.me), server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 RU(AzadNet.t.me)_024, server: 91.192.81.21, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 FR(AzadNet.t.me)_033, server: 145.239.6.202, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,99 +113,99 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92
-      - 🇯🇵 JP(AzadNet.t.me)_037
-      - 🇰🇷 KR(AzadNet.t.me)_011
+      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35
       - 🇰🇷 KR(AzadNet.t.me)_012
-      - 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS
       - 🇭🇰 香港 04 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇭🇰 香港 02 | 专线
-      - 🇯🇵 github.com/freefq - 日本东京阿里云 13
+      - 🇭🇰 HK(AzadNet.t.me)_003
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2
-      - 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新
-      - 🇰🇷 KR(AzadNet.t.me)_014
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇸🇬 新加坡 - 新加坡 - HotRoute - 66
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇭🇰 香港【付费推荐：https//jdyvip.link/】270
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
+      - 🇯🇵 日本 01 | 专线
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT
-      - 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ...
-      - 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体
-      - 🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165
-      - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55
-      - 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65
-      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189
-      - 🇭🇰 Hong Kong 7
-      - 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41
-      - 🇨🇳 github.com/freefq - 台湾省  90
-      - 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54
-      - 🇨🇳 github.com/freefq - 台湾省  95
-      - 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
+      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇭🇰 中国 - 香港 - Akari Networks - 1%%
+      - 🇨🇳 github.com/freefq - 台湾省  78
+      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
-      - 🇺🇸 _US_美国 3 3
+      - 🇨🇳 github.com/freefq - 台湾省  66
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
+      - 🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18
+      - 🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29
+      - 🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158
+      - 🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165
+      - 🇭🇰 -香港-119.237.195.230
+      - 🇭🇰 -香港-42.98.27.183
+      - 🇯🇵 -日本-43.206.229.96
+      - 🇯🇵 -日本-43.201.33.9
+      - 🇸🇬 -新加坡-51.79.222.99
       - 🇺🇸 _US_美国 13 3
-      - 🇺🇸 美国 加利福尼亚
-      - 🇺🇸 US(AzadNet.t.me)_120
-      - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 _US_美国 13 4
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 5 5
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅
       - 🇺🇸 美国 Microsoft公司
-      - 🇺🇸 github.com/freefq - 北美地区  58
-      - 🇺🇸 US(AzadNet.t.me)_004
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 github.com/freefq - 美国Microsoft公司 4
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69
-      - 🇺🇸 US(AzadNet.t.me)_343
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87
-      - 🇨🇦 加拿大 115
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 US(AzadNet.t.me)_349
-      - 🇺🇸 US(AzadNet.t.me)_347
-      - 🇺🇸 US(AzadNet.t.me)_345
-      - 🇺🇸 US(AzadNet.t.me)_351
-      - 🇺🇸 _US_美国 13
+      - 🇺🇸 美国 03 | 专线
       - 🇺🇸 US(AzadNet.t.me)_346
-      - 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014
-      - CH(AzadNet.t.me)_004
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
-      - UA(AzadNet.t.me)_002
-      - github.com/freefq - 乌克兰  99
-      - 🇩🇪 德国 v2rayfree.eu.org
-      - 乌克兰 V2CROSS.COM
-      - "-2478-VN【ccbaohe.com〗 永久免费节点机场\r"
-      - CY(AzadNet.t.me)
-      - PA(AzadNet.t.me)
-      - 🇵🇱 PL(AzadNet.t.me)_031
-      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 US(AzadNet.t.me)_345
+      - 🇺🇸 US(AzadNet.t.me)_343
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 US(AzadNet.t.me)_351
+      - 🇺🇸 US(AzadNet.t.me)_347
+      - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_349
+      - 🇺🇸 _US_美国 5 4
+      - 🇨🇦 12|加拿大 333
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 github.com/freefq - 美国Microsoft公司 6
+      - 🇺🇸 US(AzadNet.t.me)_359
+      - 🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19
       - IM(AzadNet.t.me)_003
-      - 🇲🇾 MY|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_002
-      - NO(AzadNet.t.me)_002
+      - 🇮🇷 _IR_伊朗 3
+      - 🇵🇱 PL(AzadNet.t.me)_050
+      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - LT(AzadNet.t.me)_002
+      - github.com/freefq - 欧盟  5
+      - 🇮🇳 -3450-IN【ccbaohe.com〗 永久免费节点机场
+      - PA(AzadNet.t.me)
       - AR(AzadNet.t.me)_002
-      - CO(AzadNet.t.me)
-      - 113.20.28.102|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_018
-      - 🇰🇿 哈萨克斯坦_121320002
-      - "12|رایگان | VMESS | @DailyV2RY | ... #1"
+      - 🇷🇺 _RU_俄罗斯联邦 6
       - MX(AzadNet.t.me)
+      - CO(AzadNet.t.me)
+      - CL(AzadNet.t.me)
       - 🇨🇿 捷克 V2CROSS.COM
-      - 🇻🇳 github.com/freefq - 越南  29
+      - 🇫🇷 FR(AzadNet.t.me)_131
+      - 🇰🇿 哈萨克斯坦_121320002
+      - "🇺🇸 11,12|@Hope_Net-join-us-on-Telegram #1"
+      - FI(AzadNet.t.me)_003
+      - 🇻🇳 越南 - 荣市 - TOTHOST - 219
+      - EC(AzadNet.t.me)
+      - 🇷🇺 RU(AzadNet.t.me)_024
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇫🇷 FR(AzadNet.t.me)_033
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -256,421 +256,430 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92
-      - 🇯🇵 JP(AzadNet.t.me)_037
-      - 🇰🇷 KR(AzadNet.t.me)_011
+      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35
       - 🇰🇷 KR(AzadNet.t.me)_012
-      - 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS
       - 🇭🇰 香港 04 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇭🇰 香港 02 | 专线
-      - 🇯🇵 github.com/freefq - 日本东京阿里云 13
+      - 🇭🇰 HK(AzadNet.t.me)_003
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2
-      - 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新
-      - 🇰🇷 KR(AzadNet.t.me)_014
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇸🇬 新加坡 - 新加坡 - HotRoute - 66
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇭🇰 香港【付费推荐：https//jdyvip.link/】270
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
+      - 🇯🇵 日本 01 | 专线
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT
-      - 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ...
-      - 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体
-      - 🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165
-      - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55
-      - 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65
-      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189
-      - 🇭🇰 Hong Kong 7
-      - 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41
-      - 🇨🇳 github.com/freefq - 台湾省  90
-      - 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54
-      - 🇨🇳 github.com/freefq - 台湾省  95
-      - 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
+      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇭🇰 中国 - 香港 - Akari Networks - 1%%
+      - 🇨🇳 github.com/freefq - 台湾省  78
+      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
-      - 🇺🇸 _US_美国 3 3
+      - 🇨🇳 github.com/freefq - 台湾省  66
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
+      - 🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18
+      - 🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29
+      - 🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158
+      - 🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165
+      - 🇭🇰 -香港-119.237.195.230
+      - 🇭🇰 -香港-42.98.27.183
+      - 🇯🇵 -日本-43.206.229.96
+      - 🇯🇵 -日本-43.201.33.9
+      - 🇸🇬 -新加坡-51.79.222.99
       - 🇺🇸 _US_美国 13 3
-      - 🇺🇸 美国 加利福尼亚
-      - 🇺🇸 US(AzadNet.t.me)_120
-      - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 _US_美国 13 4
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 5 5
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅
       - 🇺🇸 美国 Microsoft公司
-      - 🇺🇸 github.com/freefq - 北美地区  58
-      - 🇺🇸 US(AzadNet.t.me)_004
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 github.com/freefq - 美国Microsoft公司 4
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69
-      - 🇺🇸 US(AzadNet.t.me)_343
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87
-      - 🇨🇦 加拿大 115
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 US(AzadNet.t.me)_349
-      - 🇺🇸 US(AzadNet.t.me)_347
-      - 🇺🇸 US(AzadNet.t.me)_345
-      - 🇺🇸 US(AzadNet.t.me)_351
-      - 🇺🇸 _US_美国 13
+      - 🇺🇸 美国 03 | 专线
       - 🇺🇸 US(AzadNet.t.me)_346
-      - 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014
-      - CH(AzadNet.t.me)_004
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
-      - UA(AzadNet.t.me)_002
-      - github.com/freefq - 乌克兰  99
-      - 🇩🇪 德国 v2rayfree.eu.org
-      - 乌克兰 V2CROSS.COM
-      - "-2478-VN【ccbaohe.com〗 永久免费节点机场\r"
-      - CY(AzadNet.t.me)
-      - PA(AzadNet.t.me)
-      - 🇵🇱 PL(AzadNet.t.me)_031
-      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 US(AzadNet.t.me)_345
+      - 🇺🇸 US(AzadNet.t.me)_343
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 US(AzadNet.t.me)_351
+      - 🇺🇸 US(AzadNet.t.me)_347
+      - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_349
+      - 🇺🇸 _US_美国 5 4
+      - 🇨🇦 12|加拿大 333
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 github.com/freefq - 美国Microsoft公司 6
+      - 🇺🇸 US(AzadNet.t.me)_359
+      - 🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19
       - IM(AzadNet.t.me)_003
-      - 🇲🇾 MY|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_002
-      - NO(AzadNet.t.me)_002
+      - 🇮🇷 _IR_伊朗 3
+      - 🇵🇱 PL(AzadNet.t.me)_050
+      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - LT(AzadNet.t.me)_002
+      - github.com/freefq - 欧盟  5
+      - 🇮🇳 -3450-IN【ccbaohe.com〗 永久免费节点机场
+      - PA(AzadNet.t.me)
       - AR(AzadNet.t.me)_002
-      - CO(AzadNet.t.me)
-      - 113.20.28.102|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_018
-      - 🇰🇿 哈萨克斯坦_121320002
-      - "12|رایگان | VMESS | @DailyV2RY | ... #1"
+      - 🇷🇺 _RU_俄罗斯联邦 6
       - MX(AzadNet.t.me)
+      - CO(AzadNet.t.me)
+      - CL(AzadNet.t.me)
       - 🇨🇿 捷克 V2CROSS.COM
-      - 🇻🇳 github.com/freefq - 越南  29
+      - 🇫🇷 FR(AzadNet.t.me)_131
+      - 🇰🇿 哈萨克斯坦_121320002
+      - "🇺🇸 11,12|@Hope_Net-join-us-on-Telegram #1"
+      - FI(AzadNet.t.me)_003
+      - 🇻🇳 越南 - 荣市 - TOTHOST - 219
+      - EC(AzadNet.t.me)
+      - 🇷🇺 RU(AzadNet.t.me)_024
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇫🇷 FR(AzadNet.t.me)_033
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92
-      - 🇯🇵 JP(AzadNet.t.me)_037
-      - 🇰🇷 KR(AzadNet.t.me)_011
+      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35
       - 🇰🇷 KR(AzadNet.t.me)_012
-      - 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS
       - 🇭🇰 香港 04 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇭🇰 香港 02 | 专线
-      - 🇯🇵 github.com/freefq - 日本东京阿里云 13
+      - 🇭🇰 HK(AzadNet.t.me)_003
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2
-      - 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新
-      - 🇰🇷 KR(AzadNet.t.me)_014
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇸🇬 新加坡 - 新加坡 - HotRoute - 66
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇭🇰 香港【付费推荐：https//jdyvip.link/】270
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
+      - 🇯🇵 日本 01 | 专线
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT
-      - 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ...
-      - 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体
-      - 🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165
-      - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55
-      - 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65
-      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189
-      - 🇭🇰 Hong Kong 7
-      - 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41
-      - 🇨🇳 github.com/freefq - 台湾省  90
-      - 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54
-      - 🇨🇳 github.com/freefq - 台湾省  95
-      - 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
+      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇭🇰 中国 - 香港 - Akari Networks - 1%%
+      - 🇨🇳 github.com/freefq - 台湾省  78
+      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
-      - 🇺🇸 _US_美国 3 3
+      - 🇨🇳 github.com/freefq - 台湾省  66
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
+      - 🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18
+      - 🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29
+      - 🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158
+      - 🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165
+      - 🇭🇰 -香港-119.237.195.230
+      - 🇭🇰 -香港-42.98.27.183
+      - 🇯🇵 -日本-43.206.229.96
+      - 🇯🇵 -日本-43.201.33.9
+      - 🇸🇬 -新加坡-51.79.222.99
       - 🇺🇸 _US_美国 13 3
-      - 🇺🇸 美国 加利福尼亚
-      - 🇺🇸 US(AzadNet.t.me)_120
-      - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 _US_美国 13 4
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 5 5
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅
       - 🇺🇸 美国 Microsoft公司
-      - 🇺🇸 github.com/freefq - 北美地区  58
-      - 🇺🇸 US(AzadNet.t.me)_004
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 github.com/freefq - 美国Microsoft公司 4
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69
-      - 🇺🇸 US(AzadNet.t.me)_343
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87
-      - 🇨🇦 加拿大 115
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 US(AzadNet.t.me)_349
-      - 🇺🇸 US(AzadNet.t.me)_347
-      - 🇺🇸 US(AzadNet.t.me)_345
-      - 🇺🇸 US(AzadNet.t.me)_351
-      - 🇺🇸 _US_美国 13
+      - 🇺🇸 美国 03 | 专线
       - 🇺🇸 US(AzadNet.t.me)_346
-      - 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014
-      - CH(AzadNet.t.me)_004
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
-      - UA(AzadNet.t.me)_002
-      - github.com/freefq - 乌克兰  99
-      - 🇩🇪 德国 v2rayfree.eu.org
-      - 乌克兰 V2CROSS.COM
-      - "-2478-VN【ccbaohe.com〗 永久免费节点机场\r"
-      - CY(AzadNet.t.me)
-      - PA(AzadNet.t.me)
-      - 🇵🇱 PL(AzadNet.t.me)_031
-      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 US(AzadNet.t.me)_345
+      - 🇺🇸 US(AzadNet.t.me)_343
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 US(AzadNet.t.me)_351
+      - 🇺🇸 US(AzadNet.t.me)_347
+      - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_349
+      - 🇺🇸 _US_美国 5 4
+      - 🇨🇦 12|加拿大 333
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 github.com/freefq - 美国Microsoft公司 6
+      - 🇺🇸 US(AzadNet.t.me)_359
+      - 🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19
       - IM(AzadNet.t.me)_003
-      - 🇲🇾 MY|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_002
-      - NO(AzadNet.t.me)_002
+      - 🇮🇷 _IR_伊朗 3
+      - 🇵🇱 PL(AzadNet.t.me)_050
+      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - LT(AzadNet.t.me)_002
+      - github.com/freefq - 欧盟  5
+      - 🇮🇳 -3450-IN【ccbaohe.com〗 永久免费节点机场
+      - PA(AzadNet.t.me)
       - AR(AzadNet.t.me)_002
-      - CO(AzadNet.t.me)
-      - 113.20.28.102|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_018
-      - 🇰🇿 哈萨克斯坦_121320002
-      - "12|رایگان | VMESS | @DailyV2RY | ... #1"
+      - 🇷🇺 _RU_俄罗斯联邦 6
       - MX(AzadNet.t.me)
+      - CO(AzadNet.t.me)
+      - CL(AzadNet.t.me)
       - 🇨🇿 捷克 V2CROSS.COM
-      - 🇻🇳 github.com/freefq - 越南  29
+      - 🇫🇷 FR(AzadNet.t.me)_131
+      - 🇰🇿 哈萨克斯坦_121320002
+      - "🇺🇸 11,12|@Hope_Net-join-us-on-Telegram #1"
+      - FI(AzadNet.t.me)_003
+      - 🇻🇳 越南 - 荣市 - TOTHOST - 219
+      - EC(AzadNet.t.me)
+      - 🇷🇺 RU(AzadNet.t.me)_024
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇫🇷 FR(AzadNet.t.me)_033
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇺🇸 _US_美国 3 3
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇺🇸 _US_美国 13 3
-      - 🇺🇸 美国 加利福尼亚
-      - 🇺🇸 US(AzadNet.t.me)_120
-      - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 _US_美国 13 4
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 5 5
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅
       - 🇺🇸 美国 Microsoft公司
-      - 🇺🇸 github.com/freefq - 北美地区  58
-      - 🇺🇸 US(AzadNet.t.me)_004
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 github.com/freefq - 美国Microsoft公司 4
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69
-      - 🇺🇸 US(AzadNet.t.me)_343
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87
-      - 🇨🇦 加拿大 115
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 US(AzadNet.t.me)_349
-      - 🇺🇸 US(AzadNet.t.me)_347
-      - 🇺🇸 US(AzadNet.t.me)_345
-      - 🇺🇸 US(AzadNet.t.me)_351
-      - 🇺🇸 _US_美国 13
+      - 🇺🇸 美国 03 | 专线
       - 🇺🇸 US(AzadNet.t.me)_346
-      - 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 US(AzadNet.t.me)_345
+      - 🇺🇸 US(AzadNet.t.me)_343
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 US(AzadNet.t.me)_351
+      - 🇺🇸 US(AzadNet.t.me)_347
+      - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_349
+      - 🇺🇸 _US_美国 5 4
+      - 🇨🇦 12|加拿大 333
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 github.com/freefq - 美国Microsoft公司 6
+      - 🇺🇸 US(AzadNet.t.me)_359
+      - 🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92
-      - 🇯🇵 JP(AzadNet.t.me)_037
-      - 🇰🇷 KR(AzadNet.t.me)_011
+      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35
       - 🇰🇷 KR(AzadNet.t.me)_012
-      - 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS
       - 🇭🇰 香港 04 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇭🇰 香港 02 | 专线
-      - 🇯🇵 github.com/freefq - 日本东京阿里云 13
+      - 🇭🇰 HK(AzadNet.t.me)_003
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2
-      - 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新
-      - 🇰🇷 KR(AzadNet.t.me)_014
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇸🇬 新加坡 - 新加坡 - HotRoute - 66
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇭🇰 香港【付费推荐：https//jdyvip.link/】270
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
+      - 🇯🇵 日本 01 | 专线
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT
-      - 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ...
-      - 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体
-      - 🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165
-      - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55
-      - 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65
-      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189
-      - 🇭🇰 Hong Kong 7
-      - 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41
-      - 🇨🇳 github.com/freefq - 台湾省  90
-      - 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54
-      - 🇨🇳 github.com/freefq - 台湾省  95
-      - 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
+      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇭🇰 中国 - 香港 - Akari Networks - 1%%
+      - 🇨🇳 github.com/freefq - 台湾省  78
+      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 🇨🇳 github.com/freefq - 台湾省  66
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
+      - 🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18
+      - 🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29
+      - 🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158
+      - 🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165
+      - 🇭🇰 -香港-119.237.195.230
+      - 🇭🇰 -香港-42.98.27.183
+      - 🇯🇵 -日本-43.206.229.96
+      - 🇯🇵 -日本-43.201.33.9
+      - 🇸🇬 -新加坡-51.79.222.99
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇭🇰 Hong Kong 7
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
-      - CH(AzadNet.t.me)_004
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
-      - UA(AzadNet.t.me)_002
-      - github.com/freefq - 乌克兰  99
-      - 🇩🇪 德国 v2rayfree.eu.org
-      - 乌克兰 V2CROSS.COM
-      - "-2478-VN【ccbaohe.com〗 永久免费节点机场\r"
-      - CY(AzadNet.t.me)
-      - PA(AzadNet.t.me)
-      - 🇵🇱 PL(AzadNet.t.me)_031
-      - 🇷🇺 _RU_俄罗斯联邦 2 6
       - IM(AzadNet.t.me)_003
-      - 🇲🇾 MY|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_002
-      - NO(AzadNet.t.me)_002
+      - 🇮🇷 _IR_伊朗 3
+      - 🇵🇱 PL(AzadNet.t.me)_050
+      - 🇷🇺 _RU_俄罗斯联邦 2 6
+      - LT(AzadNet.t.me)_002
+      - github.com/freefq - 欧盟  5
+      - 🇮🇳 -3450-IN【ccbaohe.com〗 永久免费节点机场
+      - PA(AzadNet.t.me)
       - AR(AzadNet.t.me)_002
-      - CO(AzadNet.t.me)
-      - 113.20.28.102|频道 t.me/SSRSUB
-      - 🇷🇺 RU(AzadNet.t.me)_018
-      - 🇰🇿 哈萨克斯坦_121320002
-      - "12|رایگان | VMESS | @DailyV2RY | ... #1"
+      - 🇷🇺 _RU_俄罗斯联邦 6
       - MX(AzadNet.t.me)
+      - CO(AzadNet.t.me)
+      - CL(AzadNet.t.me)
       - 🇨🇿 捷克 V2CROSS.COM
-      - 🇻🇳 github.com/freefq - 越南  29
+      - 🇫🇷 FR(AzadNet.t.me)_131
+      - 🇰🇿 哈萨克斯坦_121320002
+      - "🇺🇸 11,12|@Hope_Net-join-us-on-Telegram #1"
+      - FI(AzadNet.t.me)_003
+      - 🇻🇳 越南 - 荣市 - TOTHOST - 219
+      - EC(AzadNet.t.me)
+      - 🇷🇺 RU(AzadNet.t.me)_024
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 19
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇫🇷 FR(AzadNet.t.me)_033
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇺🇸 _US_美国 3 3
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇺🇸 _US_美国 13 3
-      - 🇺🇸 美国 加利福尼亚
-      - 🇺🇸 US(AzadNet.t.me)_120
-      - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 _US_美国 13 4
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 5 5
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅
       - 🇺🇸 美国 Microsoft公司
-      - 🇺🇸 github.com/freefq - 北美地区  58
-      - 🇺🇸 US(AzadNet.t.me)_004
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 github.com/freefq - 美国Microsoft公司 4
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-919-38.68.134.69
-      - 🇺🇸 US(AzadNet.t.me)_343
-      - 🇺🇸 [01-01]-🇺🇸-美国华盛顿-066-38.143.66.87
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 US(AzadNet.t.me)_349
-      - 🇺🇸 US(AzadNet.t.me)_347
-      - 🇺🇸 US(AzadNet.t.me)_345
-      - 🇺🇸 US(AzadNet.t.me)_351
-      - 🇺🇸 _US_美国 13
+      - 🇺🇸 美国 03 | 专线
       - 🇺🇸 US(AzadNet.t.me)_346
-      - 🇺🇸 US(AzadNet.t.me)_359ss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150989#🇬🇧 GB(AzadNet.t.me)_014
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-066-38.143.66.87
+      - 🇺🇸 [01-02]-🇺🇸-美国华盛顿-919-38.68.134.69
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 US(AzadNet.t.me)_345
+      - 🇺🇸 US(AzadNet.t.me)_343
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 US(AzadNet.t.me)_351
+      - 🇺🇸 US(AzadNet.t.me)_347
+      - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_349
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 github.com/freefq - 美国Microsoft公司 6
+      - 🇺🇸 US(AzadNet.t.me)_359
+      - 🇺🇸 github.com/freefq - 美国  24trojan//a779f4db-70ab-44db-8c4a-11e3194892ef@134.209.255.194443?allowInsecure=1&sni=dl.kgvn.garenanow.com#🇩🇪 德国 - 法兰克福 - DigitalOcean, LLC - 19
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_35
       - 🇭🇰 香港 04 | 专线
       - 🇭🇰 香港 02 | 专线
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 HK(AzadNet.t.me)_003
+      - 🇭🇰 香港【付费推荐：https//jdyvip.link/】270
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
-      - 🇭🇰 HK 香港09 WAP-BGP | 原生解锁流媒体
-      - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 57
-      - 🇭🇰 【ccbaohe.com】 永久免费机场节点|深港隧道|流媒体_189
-      - 🇭🇰 Hong Kong 7
+      - 🇭🇰 中国 - 香港 - Akari Networks - 1%%
+      - 🇭🇰 -香港-119.237.195.230
+      - 🇭🇰 -香港-42.98.27.183
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 55
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 65
-      - 🇸🇬 新加坡 - 新加坡 - Eons Data Communications Limited - 41
-      - 🇸🇬 新加坡 - 新加坡 - Akamai Technologies - 54
-      - 🇸🇬 %F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Vmess%20WS%20@V2rayStore_2
-      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 🇸🇬 新加坡 - 新加坡 - HotRoute - 66
+      - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 71
+      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-626-217.197.161.164
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-613-217.197.161.166
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-880-81.90.189.152
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-519-81.90.189.18
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-590-54.169.86.225
+      - 🇸🇬 [01-02]-🇸🇬-新加坡-030-54.179.75.29
+      - 🇸🇬 -新加坡-51.79.222.99
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 92
-      - 🇯🇵 JP(AzadNet.t.me)_037
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-152.69.197.601069 📡 PING-163.15-MS
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - 🇯🇵 JP(AzadNet.t.me)_041
-      - 🇯🇵 github.com/freefq - 日本东京阿里云 13
-      - 🇸🇬 日本10〖电报：@ccbaohe】免费节点定时更新
-      - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇯🇵 JP 日本09 SP-东京 | 解锁Netflix非自制剧 | ChatGPT
-      - 🇯🇵 12|JP 日本09 SP-东京 | 解锁Netflix非自制剧 ...
-      - 🇯🇵 [01-01]-🇯🇵-日本-555-172.105.244.165
+      - 🇯🇵 JP(AzadNet.t.me)_008
+      - 🇯🇵 日本 01 | 专线
+      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇯🇵 github.com/freefq - 日本东京Choopa数据中心 79
       - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
+      - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
+      - 🇯🇵 [01-02]-🇯🇵-日本-740-185.160.24.217
+      - 🇯🇵 [01-02]-🇯🇵-日本-705-43.207.66.60
+      - 🇯🇵 [01-02]-🇯🇵-日本-707-172.104.123.158
+      - 🇯🇵 [01-02]-🇯🇵-日本-555-172.105.244.165
+      - 🇯🇵 -日本-43.206.229.96
+      - 🇯🇵 -日本-43.201.33.9
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW-板桥1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇨🇳 TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇨🇳 TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖电报：@ccbaohe】免费节点定时更新
-      - 🇨🇳 github.com/freefq - 台湾省  90
-      - 🇨🇳 github.com/freefq - 台湾省  95
-      - 🇨🇳 github.com/freefq - 台湾省苗栗县中华电信 96
+      - 🇨🇳 github.com/freefq - 台湾省  78
+      - 🇨🇳 github.com/freefq - 台湾省  66
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 KR(AzadNet.t.me)_011
       - 🇰🇷 KR(AzadNet.t.me)_012
-      - 🇰🇷 TR-TCP-NA 🇰🇷 KR-144.24.87.18646527 📡 PING-174.21-MS
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian 2
-      - 🇰🇷 KR(AzadNet.t.me)_014
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
+      - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,cp.cloudflare.com,DIRECT
@@ -2323,6 +2332,7 @@ rules:
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
+ - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
@@ -2330,7 +2340,6 @@ rules:
  - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
- - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
