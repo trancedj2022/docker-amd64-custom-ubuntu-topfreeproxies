@@ -46,7 +46,6 @@
     │       ├── README.md                 # 这个是项目说明
     │       ├── mihomos                     # 这个是mihomo代理工具
     │       ├── mihomo.gz                  # 这个是mihomo压缩包
-    │       ├── crontab                   # 这个是类unix系定时任务文件crontab
     │       ├── start.sh                  # 这个是项目启动脚本
     │       ├── sub                       # 这个是节点集合体
     │       │   ├── list                  # 这个是节点列表存放目录
