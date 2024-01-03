@@ -38,7 +38,6 @@
     ├── Dockerfile                        # 这个是构建docker镜像所需Dockerfile
     ├── README.md                         # 这个是项目说明文件
     ├── debian.backup                     # 这个是曾经的debian项目备份文件移植
-    │   ├── crontab                       # 这个是类unix系定时任务文件crontab
     │   ├── sfs                           # 这个是暂时代理小工具
     │   │   ├── sources                   # 这个是小工具资源目录
     │   │   │   ├── .config               # 这个是小工具配置文件
