@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+IP=127.0.0.1
+HTTP_PORT=7891
+SOCKS5_PORT=$((HTTP_PORT+1))
+export http_proxy=http://${IP}:${HTTP_PORT} https_proxy=${IP}:${HTTP_PORT} all_proxy=socks5://${IP}:${SOCKS5_PORT}
 # Download mihomo
 if [ $(uname -m) = 'x86_64' ];then
     echo "is amd64"
@@ -8,16 +13,16 @@ if [ $(uname -m) = 'x86_64' ];then
 else
     echo "is not x86_64"
 fi
-
+unset http_proxy https_proxy all_proxy
 gunzip -f mihomo.gz
-
+mv -fv /mihomo /mihomos
 # Initialize Mihomo
-sudo chmod +x ./mihomo && ./mihomo &
+sudo chmod +x ./mihomos && ./mihomos &
 
 # Setup proxychains
 sudo chmod 777 /etc/proxychains.conf
 sudo cp -fv ./utils/scripts/proxychains.conf /etc/proxychains.conf
 
 # Run Mihomo
-pkill -f mihomo
-./mihomo -f ./utils/scripts/clash_config.yml &
+pkill -f mihomos
+./mihomos -f ./utils/scripts/clash_config.yml &
