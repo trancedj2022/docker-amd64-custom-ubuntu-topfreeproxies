@@ -52,8 +52,8 @@
     │       ├── Eternity.yaml             # 这个是配置文件集合体
     │       ├── LICENSE                   # 这个是项目协议吧？
     │       ├── README.md                 # 这个是项目说明
-    │       ├── clash                     # 这个是clash代理工具
-    │       ├── clash.gz                  # 这个是clash压缩包
+    │       ├── mihomos                     # 这个是mihomo代理工具
+    │       ├── mihomo.gz                  # 这个是mihomo压缩包
     │       ├── crontab                   # 这个是类unix系定时任务文件crontab
     │       ├── start.sh                  # 这个是项目启动脚本
     │       ├── sub                       # 这个是节点集合体
