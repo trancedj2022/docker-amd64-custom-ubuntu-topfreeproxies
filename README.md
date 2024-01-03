@@ -38,13 +38,6 @@
     ├── Dockerfile                        # 这个是构建docker镜像所需Dockerfile
     ├── README.md                         # 这个是项目说明文件
     ├── debian.backup                     # 这个是曾经的debian项目备份文件移植
-    │   ├── sfs                           # 这个是暂时代理小工具
-    │   │   ├── sources                   # 这个是小工具资源目录
-    │   │   │   ├── .config               # 这个是小工具配置文件
-    │   │   │   ├── Country.mmdb          # 这个是小工具代理列表文件
-    │   │   │   ├── linux-amd64           # 这个是小工具代理程序
-    │   │   │   └── linux-amd64.log       # 这个是小工具代理日志
-    │   │   └── start.sh                  # 这个是小工具启动脚本
     │   ├── start.sh                      # 这个是debian备份项目启动脚本
     │   └── topfreeproxies                # 这个是大佬 aiirobyte 的项目，其原理完全不懂
     │       ├── Eternity                  # 这个是配置文件集合体
