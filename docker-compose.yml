@@ -4,7 +4,9 @@ services:
     build:
       context: .
     command:
-        - cd /debian.backup/topfreeproxies ; sudo bash start.sh
+        - "bash"
+        - "-c"
+        - "cd /debian.backup/topfreeproxies ; sudo bash start.sh"
     platform: linux/amd64
     container_name: docker-container-custom-ubuntu-topfreeproxies-latest
     image: smallflowercat1995/custom-ubuntu-topfreeproxies:latest
