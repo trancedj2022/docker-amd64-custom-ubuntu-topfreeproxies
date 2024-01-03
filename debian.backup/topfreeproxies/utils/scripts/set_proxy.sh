@@ -15,7 +15,7 @@ else
 fi
 unset http_proxy https_proxy all_proxy
 gunzip -f mihomo.gz
-mv -fv /mihomo /mihomos
+mv -fv ./mihomo ./mihomos
 # Initialize Mihomo
 sudo chmod +x ./mihomos && ./mihomos &
 
