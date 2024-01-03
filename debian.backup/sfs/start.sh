@@ -8,14 +8,12 @@ clear
 kill -9 $(ps -ef | grep -v grep | grep linux-amd64 | awk '{print $2}')
 if [ "$?" == "0"  ];then echo yes,i get linux-amd64 clash and kill it;else echo oh not get;fi
 
-# rm -rfv ".config/mihomo"
 PWD=`pwd`/sources
 cd ${PWD}
 rm -rfv *.log
-mkdir -p ".config/mihomo"
 cp -fv Country.mmdb .config/
 
-startmihomo(){
+cp -fv "../../topfreeproxies/Eternity.yaml" ".config/config.yaml"
 sudo chmod u+x linux-amd64
 nohup ./linux-amd64 -f .config/config.yaml -d .config > linux-amd64.log 2>&1 & disown
 
@@ -36,12 +34,3 @@ gunzip -f mihomo.gz
 
 # Initialize mihomo
 sudo chmod +x ./mihomo ; mv -fv ./mihomo ./linux-amd64
-}
-
-choices(){
-cp -fv "../../topfreeproxies/Eternity.yaml" ".config/config.yaml"
-sudo sed -i 's;port: 7890;port: '${HTTP_PORT}';g;s;socks-port: 7891;socks-port: '${SOCKS5_PORT}';g;s;external-controller: :9090;external-controller: :9091;g' .config/config.yaml
-startmihomo
-}
-
-choices
