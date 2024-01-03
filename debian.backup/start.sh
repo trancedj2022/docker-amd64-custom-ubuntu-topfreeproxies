@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-bash -c "cd /debian.backup/sfs ; bash start.sh ; cd /debian.backup/topfreeproxies ; bash start.sh"
+cd /debian.backup/topfreeproxies
+sudo bash start.sh
