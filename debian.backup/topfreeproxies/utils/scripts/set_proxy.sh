@@ -4,9 +4,6 @@ clear
 pkill -f mihomos
 if [ "$?" == "0"  ];then echo yes,i get mihomos and kill it;else echo oh not get;fi
 
-export IP=127.0.0.1 H_P=7891 S_P=7892
-export http_proxy=http://${IP}:${H_P} https_proxy=http://${IP}:${H_P} all_proxy=socks5://${IP}:${S_P} HTTP_PROXY=http://${IP}:${H_P} HTTPS_PROXY=http://${IP}:${H_P} ALL_PROXY=socks5://${IP}:${S_P}
-curl -svv www.github.com
 # Download mihomo
 if [ $(uname -m) = 'x86_64' ];then
     echo "is amd64"
@@ -17,15 +14,10 @@ if [ $(uname -m) = 'x86_64' ];then
 else
     echo "is not x86_64"
 fi
-unset http_proxy https_proxy all_proxy HTTP_PROXY HTTPS_PROXY ALL_PROXY
-
 gunzip -f mihomo.gz
-
 mv -fv ./mihomo ./mihomos
-cp -fv ./mihomos ../sfs/sources/linux-amd64
-chmod -v +x ./mihomos ../sfs/sources/linux-amd64
-rm -fv ./mihomo.gz ./mihomo
-
+chmod -v +x ./mihomos
+rm -fv ./mihomo.gz
 # Initialize Mihomo
 chmod +x ./mihomos && ./mihomos &
 
