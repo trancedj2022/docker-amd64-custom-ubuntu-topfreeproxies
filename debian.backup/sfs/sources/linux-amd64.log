@@ -1,1 +1,28 @@
-[31mFATA[0m[2024-01-03T00:45:09.925982677Z] Parse config error: yaml: control characters are not allowed 
+[36mINFO[0m[2024-01-03T20:47:11.894224939Z] Start initial configuration in progress      
+[36mINFO[0m[2024-01-03T20:47:11.896782751Z] Geodata Loader mode: memconservative         
+[36mINFO[0m[2024-01-03T20:47:11.904659286Z] Initial configuration complete, total time: 10ms 
+[36mINFO[0m[2024-01-03T20:47:11.905504526Z] RESTful API listening at: [::]:9091          
+[36mINFO[0m[2024-01-03T20:47:11.916564341Z] Sniffer is closed                            
+[36mINFO[0m[2024-01-03T20:47:11.916650842Z] HTTP proxy listening at: [::]:7891           
+[36mINFO[0m[2024-01-03T20:47:11.916721634Z] SOCKS proxy listening at: [::]:7892          
+[36mINFO[0m[2024-01-03T20:47:11.916792726Z] Start initial compatible provider 台湾         
+[36mINFO[0m[2024-01-03T20:47:11.916824281Z] Start initial compatible provider 🚀 节点选择     
+[36mINFO[0m[2024-01-03T20:47:11.916886395Z] Start initial compatible provider 美国         
+[36mINFO[0m[2024-01-03T20:47:11.916918227Z] Start initial compatible provider 📺 国外媒体     
+[36mINFO[0m[2024-01-03T20:47:11.91696288Z] Start initial compatible provider 🌏 东亚地区     
+[36mINFO[0m[2024-01-03T20:47:11.916992285Z] Start initial compatible provider default    
+[36mINFO[0m[2024-01-03T20:47:11.917015408Z] Start initial compatible provider 韩国         
+[36mINFO[0m[2024-01-03T20:47:11.916827808Z] Start initial compatible provider 🐟 漏网之鱼     
+[36mINFO[0m[2024-01-03T20:47:11.916888932Z] Start initial compatible provider 🌍 其它地区     
+[36mINFO[0m[2024-01-03T20:47:11.916841053Z] Start initial compatible provider Ⓜ️ 微软服务    
+[36mINFO[0m[2024-01-03T20:47:11.916847244Z] Start initial compatible provider 🤘 手动选择     
+[36mINFO[0m[2024-01-03T20:47:11.916861561Z] Start initial compatible provider 🏳️‍🌈 国家选择  
+[36mINFO[0m[2024-01-03T20:47:11.9168559Z] Start initial compatible provider ♻️ 自动选择    
+[36mINFO[0m[2024-01-03T20:47:11.916862631Z] Start initial compatible provider 狮城         
+[36mINFO[0m[2024-01-03T20:47:11.916866971Z] Start initial compatible provider 香港         
+[36mINFO[0m[2024-01-03T20:47:11.916873802Z] Start initial compatible provider 🌎 北美地区     
+[36mINFO[0m[2024-01-03T20:47:11.916874605Z] Start initial compatible provider 🍎 苹果服务     
+[36mINFO[0m[2024-01-03T20:47:11.916880164Z] Start initial compatible provider 日本         
+[36mINFO[0m[2024-01-03T20:47:11.916884023Z] Start initial compatible provider 🧱 国内网站     
+[36mINFO[0m[2024-01-03T20:47:11.916905804Z] Start initial compatible provider ⚡ 故障转移     
+[36mINFO[0m[2024-01-03T20:47:12.219929142Z] [TCP] 127.0.0.1:57314(wget) --> github.com:443 match DomainKeyword(github) using 🚀 节点选择[🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 6] 
