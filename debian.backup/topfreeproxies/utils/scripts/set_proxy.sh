@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+clear
+kill -9 $(ps -ef | grep -v grep | grep mihomos | awk '{print $2}')
+if [ "$?" == "0"  ];then echo yes,i get mihomos clash and kill it;else echo oh not get;fi
+
 export IP=127.0.0.1 H_P=7891 S_P=7892
 export http_proxy=http://${IP}:${H_P} https_proxy=http://${IP}:${H_P} all_proxy=socks5://${IP}:${S_P} HTTP_PROXY=http://${IP}:${H_P} HTTPS_PROXY=http://${IP}:${H_P} ALL_PROXY=socks5://${IP}:${S_P}
 # Download mihomo
