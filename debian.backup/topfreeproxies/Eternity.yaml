@@ -5,20 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :7896
 proxies:
+  - {name: 🇯🇵 JP(AzadNet.t.me)_037, server: 52.194.252.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_038, server: 13.230.132.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 github.com/freefq - 日本阿里云 22, server: 47.91.28.15, port: 80, type: vmess, uuid: 5f1363f8-eaee-42c5-9b77-7fd08350a529, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: elcjp01.tgyujcchannel.site}}}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_041, server: 185.172.113.182, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian, server: 18.142.48.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_039, server: 13.115.27.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇸🇬 CyberAirport-SG-04\r", server: 47.236.140.139, port: 8443, type: trojan, password: 2d34956e-4449-4f8b-822f-b93690d89fdb, sni: global.download.synology.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-3.80MB/s, server: 43.201.100.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59", server: 8.217.17.254, port: 443, type: trojan, password: 84b5b76e-3fdf-4673-bee0-959181c6b702, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本 01 | 专线, server: jp1.b46a9769-77dd-93c9-0354-5902353bdae8.7adf211e.the-best-airport.com, port: 443, type: trojan, password: b0d940fb-4af3-47c5-90d6-dd4618c391df, sni: 144-22-163-118.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_009, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 香港 电讯盈科有限公司, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_008, server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com}}}
-  - {name: 🇨🇳 台湾省桃园市 中华电信, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 V2CROSS.COM 2, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 github.com/freefq - 台湾省  50, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧, server: 45.66.134.176, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.203, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138", server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧, server: 52.197.66.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧, server: 146.56.40.117, port: 27675, type: vmess, uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}}
@@ -29,7 +25,7 @@ proxies:
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /408, headers: {Host: amdkr.ptuu.ga}}}
   - {name: 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /987, headers: {Host: amdkr.ptuu.ml}}}
   - {name: "🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217", server: 185.160.24.217, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138", server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧, server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164", server: 217.197.161.164, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166", server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152", server: 81.90.189.152, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -39,63 +35,67 @@ proxies:
   - {name: "🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29", server: 54.179.75.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158", server: 172.104.123.158, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
   - {name: "🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165", server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇳 github.com/freefq - 台湾省  50, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
   - {name: 🇯🇵 -日本-43.206.229.96, server: 43.206.229.96, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: ab93117422.jd.h%%�%�}
   - {name: 🇯🇵 -日本-43.201.33.9, server: 43.201.33.9, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: ab93117422.jd.h%%�%�}
   - {name: 🇸🇬 -新加坡-51.79.222.99, server: 51.79.222.99, port: 443, type: ssr, cipher: aes-256-ctr, password: bypasser2020qwerty, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇸🇬 -新加坡-kr1.vfun.icu, server: kr1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32", server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441, alterId: 0, cipher: auto, tls: false}
   - {name: "🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com", server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 订阅内容解析错误29ea82cf-f956-42b2-a5dc-35feea39e7ff, skip-cert-verify: false}
+  - {name: "🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com", server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 订阅内容解析错误29ea82cf-f956-42b2-a5dc-35feea39e7ff, skip-cert-verify: false}
   - {name: "🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com", server: xg107.npv4.com, port: 443, type: trojan, password: 订阅内容解析错误6a96b7c2-c918-3bb6-94b5-9861d13f9a00, skip-cert-verify: false}
   - {name: "@wbnet_🇭🇰_HK_7", server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: 🇺🇸 US(AzadNet.t.me)_008, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1, server: 73hk01.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 73hk01.fx6688.top}}}
+  - {name: 🇯🇵 日本 002, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml, skip-cert-verify: true}
+  - {name: 2.53|SG17210416531bf1a019d1959, server: sg-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-01.licom.ml, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 11, server: us-01.jikuai.xyz, port: 2082, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-01.jikuai.xyz}}}
   - {name: 🇺🇸 _US_美国 8 3, server: lt2-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: lt2-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 US(AzadNet.t.me)_009, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: au.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇺🇸 _US_美国 14 3, server: whatismyipaddress.com, port: 2052, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgtow_cdn.yunjisuan.cf}}}
-  - {name: 🇺🇸 _US_美国 4 4, server: 35.87.39.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US(AzadNet.t.me)_163, server: 95.164.44.10, port: 80, type: vmess, uuid: cfe6dfdc-86b8-49d4-b9df-bf58c4021feb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇦 加拿大 111, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
-  - {name: 🇺🇸 fardian0142😍🇺🇸😍US😍336, server: 47.254.16.114, port: 80, type: vmess, uuid: f3464642-f113-4575-aa33-f68aef56b5c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mePGXW6SFZZw2QyAqaYK}}
   - {name: 🇺🇸 US(AzadNet.t.me)_054, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
+  - {name: 🇨🇦 加拿大 160, server: 23.227.39.84, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}}
+  - {name: 🇺🇸 US(AzadNet.t.me)_005, server: pla.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL, headers: {Host: pla.yj2022.gq}}}
+  - {name: 🇨🇦 CA(AzadNet.t.me)_014, server: 223.165.4.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇦 加拿大 158, server: 23.227.38.86, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}}
+  - {name: 🇺🇸 US(AzadNet.t.me)_163, server: 95.164.44.10, port: 80, type: vmess, uuid: cfe6dfdc-86b8-49d4-b9df-bf58c4021feb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2", server: 8.217.17.254, port: 443, type: trojan, password: 84b5b76e-3fdf-4673-bee0-959181c6b702, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇺🇸 fardian0142😍🇺🇸😍US😍336, server: 47.254.16.114, port: 80, type: vmess, uuid: f3464642-f113-4575-aa33-f68aef56b5c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mePGXW6SFZZw2QyAqaYK}}
+  - {name: 🇺🇸 US(AzadNet.t.me)_120, server: 154.90.39.63, port: 45343, type: vmess, uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 US(AzadNet.t.me)_189, server: 47.88.87.39, port: 80, type: vmess, uuid: 18351862-d953-4ab9-afae-4998dcd56f8b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wRDYyXAgH6oASzMKs65VUYw}}
-  - {name: 🇺🇸 US(AzadNet.t.me)_187, server: 47.88.106.47, port: 80, type: vmess, uuid: 52fe86cc-db7f-43d0-83f8-7e4c91a61f35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qRV8zMMajQyex4KWUBkia1vvH}}
-  - {name: "🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20", server: 161.35.69.20, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14, server: 38.54.82.54, port: 41604, type: vmess, uuid: 54de50e5-5e4b-443f-d9b8-9e9e0eee865c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧, server: 167.88.62.68, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧, server: 167.88.63.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
-  - {name: 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧, server: 107.182.177.136, port: 256, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
-  - {name: 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧, server: 35.91.237.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧, server: 38.64.138.53, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg}
-  - {name: 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4}
-  - {name: 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}}
-  - {name: 🇬🇧 GB(AzadNet.t.me)_020, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇬🇧 GB(AzadNet.t.me)_022, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: LT(AzadNet.t.me)_001, server: 31.40.216.204, port: 36140, type: ss, cipher: chacha20-ietf-poly1305, password: FkBrRfbL2xXy8CqyydvqJY}
-  - {name: 欧盟 V2CROSS.COM, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
-  - {name: VM-WS-NA 🏴‍☠️ NA-104.26.15.2298080 📡 PING-001.73-MS, server: 104.26.15.229, port: 8080, type: vmess, uuid: 4d4dadbf-ed22-405b-822d-e7225094200a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk-new01.gujuji.top}}}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: www.shopify.com, port: 2082, type: vmess, uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: els_cdnone.yunjisuan.cf}}}
-  - {name: 🇳🇱 NL(AzadNet.t.me)_001, server: hdfy4s2d1.foriran.trade, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /WgCmp8pxRWBtLTlTL, headers: {Host: hdfy4s2d1.foriran.trade}}}
+  - {name: 🇺🇸 US(AzadNet.t.me)_180, server: 47.254.121.68, port: 80, type: vmess, uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /OFglbcWQ8P3dJUA7yf}}
+  - {name: 🇨🇦 加拿大 339, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
+  - {name: 🇺🇸 美国_121320281, server: 47.254.89.211, port: 80, type: vmess, uuid: 203b2ab2-4994-4193-8193-6631a575edb0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /GSoTl9ZoYG5V2R0k4tUTGI8k}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: au.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 4, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 加拿大 105, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
+  - {name: 🇺🇸 _US_美国 5 4, server: 35.90.10.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US(AzadNet.t.me)_184, server: 47.89.229.201, port: 80, type: vmess, uuid: 0dce8b7e-4189-427b-95b7-93fc55d25115, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /PxcYlDIHtv3GtsBfhm1AaayIV}}
+  - {name: 🇺🇸 _US_美国 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: 🇷🇺 RU(AzadNet.t.me)_003, server: 89.221.224.12, port: 8080, type: vmess, uuid: 3bc3514c-cbcb-4b08-9797-c62850ae8bb4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇷🇺 14|🇷🇺 俄罗斯|@ripaojiedian, server: 185.22.154.12, port: 24634, type: ss, cipher: aes-256-gcm, password: CVU1WQFX4F}
   - {name: 🇩🇪 _DE_德国 2, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇸 _RS_塞尔维亚, server: 45.89.55.147, port: 80, type: vmess, uuid: 4c2dbe94-833b-476c-910b-af8b5f3c0123, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: MX(AzadNet.t.me), server: 190.103.179.23, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 104.21.28.62, port: 443, type: vmess, uuid: 0d9776dd-e12e-4a5e-9bf2-8cceb1b502f1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: pt1-vmess.sshmax.xyz}}}
+  - {name: 🇵🇱 PL(AzadNet.t.me)_031, server: 217.30.10.68, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: 🇨🇿 捷克, server: 109.123.230.157, port: 80, type: vmess, uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: 109.123.230.157}}}
   - {name: 🇸🇪 |SE|瑞典|@wxgqlfx|25, server: 94.131.98.90, port: 80, type: vmess, uuid: 0814badf-f3fc-4f15-b400-4ae8cdce610e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇵🇹 |PT|葡萄牙|@wxgqlfx|81, server: 5.182.39.27, port: 8880, type: vmess, uuid: ffa054fd-602e-4a72-b4b1-90902479ba9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: LT(AzadNet.t.me)_002, server: 185.140.209.74, port: 24224, type: ss, cipher: chacha20-ietf-poly1305, password: C9Bj8nLTngraUjrwk82Ax7}
+  - {name: VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS, server: 16.171.13.95, port: 43921, type: vmess, uuid: e209e3e9-e690-40d7-a19f-e7c46eb5decc, alterId: 0, cipher: auto, tls: false}
+  - {name: CR(AzadNet.t.me)_002, server: 138.59.16.146, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: PE(AzadNet.t.me), server: 190.120.229.28, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 安徽省 移动数据上网公共出口, server: 112.28.208.10, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: github.com/freefq - 欧盟  7, server: 45.8.147.80, port: 5741, type: ss, cipher: chacha20-ietf-poly1305, password: Q5CEiebSuSl2qFkfE4ztG2}
   - {name: 🇪🇺 -欧洲-150.107.46.21, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: Y2xvdWRmcm9udC5uZXQ%3D}
-  - {name: 🇨🇿 捷克, server: 109.123.230.157, port: 80, type: vmess, uuid: 877aa2a8-5854-4cb2-9aba-4a1413a6b2de, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: 109.123.230.157}}}
-  - {name: 🇪🇸 ES(AzadNet.t.me)_006, server: 92.38.171.215, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: pxREQjgjPGjSKoXLEnt6nyzhZUhi7So1JlsSSRWYMi4M4iXD}
-  - {name: CR(AzadNet.t.me)_002, server: 138.59.16.146, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇷🇺 RU(AzadNet.t.me)_003, server: 89.221.224.12, port: 8080, type: vmess, uuid: 3bc3514c-cbcb-4b08-9797-c62850ae8bb4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS, server: 16.171.13.95, port: 43921, type: vmess, uuid: e209e3e9-e690-40d7-a19f-e7c46eb5decc, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Akamai Technologies, Inc. - 4", server: 172.234.99.161, port: 443, type: trojan, password: 3165dac2-6203-46bd-a758-ecb170e58397, skip-cert-verify: true}
-  - {name: 🇬🇧 英国 - 考文垂 - Stark Industries Solutions LTD - 6, server: uk1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk1-vmess.greenssh.xyz}}}
+  - {name: 🇷🇺 RU(AzadNet.t.me)_017, server: 213.183.44.17, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XwWVRmO2kKu6qK1Xlih3Lfe6Lh3RRa9r}
+  - {name: _CN_中国->🇬🇮_GI_直布罗陀, server: gbs.pptv-tv.store, port: 17728, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify: true}
+  - {name: 亚太地区 V2CROSS.COM 2, server: 103.166.185.120, port: 80, type: vmess, uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gsieutocdo.club}}
+  - {name: github.com/freefq - 欧盟  2, server: 45.87.153.246, port: 6199, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj}
+  - {name: 亚太地区 V2CROSS.COM 4, server: vip.zinok.pro, port: 443, type: trojan, password: mothai3456789080898, skip-cert-verify: false}
+  - {name: MT(AzadNet.t.me), server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: -3448-VN【ccbaohe.com〗 永久免费节点机场, server: 103.179.173.233, port: 443, type: trojan, password: mothai34, skip-cert-verify: true}
+  - {name: 🇷🇺 RU(AzadNet.t.me)_018, server: 212.113.106.243, port: 12949, type: ss, cipher: chacha20-ietf-poly1305, password: P2zxXPewlV3BlfqqYiSthvtLc}
+  - {name: GT(AzadNet.t.me)_002, server: 170.80.111.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: IM(AzadNet.t.me)_002, server: 37.235.55.21, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: IM(AzadNet.t.me)_001, server: 37.235.55.42, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 RU(AzadNet.t.me)_024, server: 91.192.81.21, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,20 +111,16 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇯🇵 JP(AzadNet.t.me)_037
+      - 🇯🇵 JP(AzadNet.t.me)_038
+      - 🇯🇵 github.com/freefq - 日本阿里云 22
+      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - "🇸🇬 CyberAirport-SG-04\r"
-      - 🇰🇷 韩国-3.80MB/s
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
       - 🇯🇵 日本 01 | 专线
+      - 🇯🇵 JP(AzadNet.t.me)_009
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇯🇵 JP(AzadNet.t.me)_008
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 V2CROSS.COM 2
-      - 🇨🇳 github.com/freefq - 台湾省  50
-      - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
+      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
@@ -135,7 +131,7 @@ proxy-groups:
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217
-      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164
       - 🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166
       - 🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152
@@ -145,63 +141,67 @@ proxy-groups:
       - 🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29
       - 🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158
       - 🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165
+      - 🇨🇳 github.com/freefq - 台湾省  50
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
       - 🇯🇵 -日本-43.206.229.96
       - 🇯🇵 -日本-43.201.33.9
       - 🇸🇬 -新加坡-51.79.222.99
       - 🇸🇬 -新加坡-kr1.vfun.icu
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32
       - 🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com
+      - 🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com
       - 🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com
       - "@wbnet_🇭🇰_HK_7"
-      - 🇺🇸 US(AzadNet.t.me)_008
+      - 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1
+      - 🇯🇵 日本 002
+      - 2.53|SG17210416531bf1a019d1959
+      - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 US(AzadNet.t.me)_009
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 _US_美国 14 3
-      - 🇺🇸 _US_美国 4 4
-      - 🇺🇸 US(AzadNet.t.me)_163
-      - 🇨🇦 加拿大 111
-      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
       - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇨🇦 加拿大 160
+      - 🇺🇸 US(AzadNet.t.me)_005
+      - 🇨🇦 CA(AzadNet.t.me)_014
+      - 🇨🇦 加拿大 158
+      - 🇺🇸 US(AzadNet.t.me)_163
+      - 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
+      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
+      - 🇺🇸 US(AzadNet.t.me)_120
       - 🇺🇸 US(AzadNet.t.me)_189
-      - 🇺🇸 US(AzadNet.t.me)_187
-      - 🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
-      - 🇬🇧 GB(AzadNet.t.me)_020
-      - 🇬🇧 GB(AzadNet.t.me)_022
-      - LT(AzadNet.t.me)_001
-      - 欧盟 V2CROSS.COM
-      - VM-WS-NA 🏴‍☠️ NA-104.26.15.2298080 📡 PING-001.73-MS
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇳🇱 NL(AzadNet.t.me)_001
+      - 🇺🇸 US(AzadNet.t.me)_180
+      - 🇨🇦 加拿大 339
+      - 🇺🇸 美国_121320281
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇨🇦 加拿大 105
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 US(AzadNet.t.me)_184
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub
+      - 🇷🇺 RU(AzadNet.t.me)_003
+      - 🇷🇺 14|🇷🇺 俄罗斯|@ripaojiedian
       - 🇩🇪 _DE_德国 2
-      - 🇷🇸 _RS_塞尔维亚
-      - MX(AzadNet.t.me)
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - 🇵🇱 PL(AzadNet.t.me)_031
+      - 🇨🇿 捷克
       - 🇸🇪 |SE|瑞典|@wxgqlfx|25
-      - 🇵🇹 |PT|葡萄牙|@wxgqlfx|81
-      - LT(AzadNet.t.me)_002
+      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
+      - CR(AzadNet.t.me)_002
       - PE(AzadNet.t.me)
+      - 安徽省 移动数据上网公共出口
       - github.com/freefq - 欧盟  7
       - 🇪🇺 -欧洲-150.107.46.21
-      - 🇨🇿 捷克
-      - 🇪🇸 ES(AzadNet.t.me)_006
-      - CR(AzadNet.t.me)_002
-      - 🇷🇺 RU(AzadNet.t.me)_003
-      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Akamai Technologies, Inc. - 4
-      - 🇬🇧 英国 - 考文垂 - Stark Industries Solutions LTD - 6
+      - 🇷🇺 RU(AzadNet.t.me)_017
+      - _CN_中国->🇬🇮_GI_直布罗陀
+      - 亚太地区 V2CROSS.COM 2
+      - github.com/freefq - 欧盟  2
+      - 亚太地区 V2CROSS.COM 4
+      - MT(AzadNet.t.me)
+      - -3448-VN【ccbaohe.com〗 永久免费节点机场
+      - 🇷🇺 RU(AzadNet.t.me)_018
+      - GT(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_001
+      - 🇷🇺 RU(AzadNet.t.me)_024
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,20 +252,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 JP(AzadNet.t.me)_037
+      - 🇯🇵 JP(AzadNet.t.me)_038
+      - 🇯🇵 github.com/freefq - 日本阿里云 22
+      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - "🇸🇬 CyberAirport-SG-04\r"
-      - 🇰🇷 韩国-3.80MB/s
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
       - 🇯🇵 日本 01 | 专线
+      - 🇯🇵 JP(AzadNet.t.me)_009
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇯🇵 JP(AzadNet.t.me)_008
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 V2CROSS.COM 2
-      - 🇨🇳 github.com/freefq - 台湾省  50
-      - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
+      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
@@ -276,7 +272,7 @@ proxy-groups:
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217
-      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164
       - 🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166
       - 🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152
@@ -286,83 +282,83 @@ proxy-groups:
       - 🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29
       - 🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158
       - 🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165
+      - 🇨🇳 github.com/freefq - 台湾省  50
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
       - 🇯🇵 -日本-43.206.229.96
       - 🇯🇵 -日本-43.201.33.9
       - 🇸🇬 -新加坡-51.79.222.99
       - 🇸🇬 -新加坡-kr1.vfun.icu
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32
       - 🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com
+      - 🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com
       - 🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com
       - "@wbnet_🇭🇰_HK_7"
-      - 🇺🇸 US(AzadNet.t.me)_008
+      - 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1
+      - 🇯🇵 日本 002
+      - 2.53|SG17210416531bf1a019d1959
+      - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 US(AzadNet.t.me)_009
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 _US_美国 14 3
-      - 🇺🇸 _US_美国 4 4
-      - 🇺🇸 US(AzadNet.t.me)_163
-      - 🇨🇦 加拿大 111
-      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
       - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇨🇦 加拿大 160
+      - 🇺🇸 US(AzadNet.t.me)_005
+      - 🇨🇦 CA(AzadNet.t.me)_014
+      - 🇨🇦 加拿大 158
+      - 🇺🇸 US(AzadNet.t.me)_163
+      - 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
+      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
+      - 🇺🇸 US(AzadNet.t.me)_120
       - 🇺🇸 US(AzadNet.t.me)_189
-      - 🇺🇸 US(AzadNet.t.me)_187
-      - 🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
-      - 🇬🇧 GB(AzadNet.t.me)_020
-      - 🇬🇧 GB(AzadNet.t.me)_022
-      - LT(AzadNet.t.me)_001
-      - 欧盟 V2CROSS.COM
-      - VM-WS-NA 🏴‍☠️ NA-104.26.15.2298080 📡 PING-001.73-MS
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇳🇱 NL(AzadNet.t.me)_001
+      - 🇺🇸 US(AzadNet.t.me)_180
+      - 🇨🇦 加拿大 339
+      - 🇺🇸 美国_121320281
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇨🇦 加拿大 105
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 US(AzadNet.t.me)_184
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub
+      - 🇷🇺 RU(AzadNet.t.me)_003
+      - 🇷🇺 14|🇷🇺 俄罗斯|@ripaojiedian
       - 🇩🇪 _DE_德国 2
-      - 🇷🇸 _RS_塞尔维亚
-      - MX(AzadNet.t.me)
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - 🇵🇱 PL(AzadNet.t.me)_031
+      - 🇨🇿 捷克
       - 🇸🇪 |SE|瑞典|@wxgqlfx|25
-      - 🇵🇹 |PT|葡萄牙|@wxgqlfx|81
-      - LT(AzadNet.t.me)_002
+      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
+      - CR(AzadNet.t.me)_002
       - PE(AzadNet.t.me)
+      - 安徽省 移动数据上网公共出口
       - github.com/freefq - 欧盟  7
       - 🇪🇺 -欧洲-150.107.46.21
-      - 🇨🇿 捷克
-      - 🇪🇸 ES(AzadNet.t.me)_006
-      - CR(AzadNet.t.me)_002
-      - 🇷🇺 RU(AzadNet.t.me)_003
-      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Akamai Technologies, Inc. - 4
-      - 🇬🇧 英国 - 考文垂 - Stark Industries Solutions LTD - 6
+      - 🇷🇺 RU(AzadNet.t.me)_017
+      - _CN_中国->🇬🇮_GI_直布罗陀
+      - 亚太地区 V2CROSS.COM 2
+      - github.com/freefq - 欧盟  2
+      - 亚太地区 V2CROSS.COM 4
+      - MT(AzadNet.t.me)
+      - -3448-VN【ccbaohe.com〗 永久免费节点机场
+      - 🇷🇺 RU(AzadNet.t.me)_018
+      - GT(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_001
+      - 🇷🇺 RU(AzadNet.t.me)_024
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵 JP(AzadNet.t.me)_037
+      - 🇯🇵 JP(AzadNet.t.me)_038
+      - 🇯🇵 github.com/freefq - 日本阿里云 22
+      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - "🇸🇬 CyberAirport-SG-04\r"
-      - 🇰🇷 韩国-3.80MB/s
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
       - 🇯🇵 日本 01 | 专线
+      - 🇯🇵 JP(AzadNet.t.me)_009
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇯🇵 JP(AzadNet.t.me)_008
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 V2CROSS.COM 2
-      - 🇨🇳 github.com/freefq - 台湾省  50
-      - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
+      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
@@ -373,7 +369,7 @@ proxy-groups:
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217
-      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164
       - 🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166
       - 🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152
@@ -383,63 +379,67 @@ proxy-groups:
       - 🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29
       - 🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158
       - 🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165
+      - 🇨🇳 github.com/freefq - 台湾省  50
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
       - 🇯🇵 -日本-43.206.229.96
       - 🇯🇵 -日本-43.201.33.9
       - 🇸🇬 -新加坡-51.79.222.99
       - 🇸🇬 -新加坡-kr1.vfun.icu
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32
       - 🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com
+      - 🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com
       - 🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com
       - "@wbnet_🇭🇰_HK_7"
-      - 🇺🇸 US(AzadNet.t.me)_008
+      - 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1
+      - 🇯🇵 日本 002
+      - 2.53|SG17210416531bf1a019d1959
+      - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 US(AzadNet.t.me)_009
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 _US_美国 14 3
-      - 🇺🇸 _US_美国 4 4
-      - 🇺🇸 US(AzadNet.t.me)_163
-      - 🇨🇦 加拿大 111
-      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
       - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇨🇦 加拿大 160
+      - 🇺🇸 US(AzadNet.t.me)_005
+      - 🇨🇦 CA(AzadNet.t.me)_014
+      - 🇨🇦 加拿大 158
+      - 🇺🇸 US(AzadNet.t.me)_163
+      - 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
+      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
+      - 🇺🇸 US(AzadNet.t.me)_120
       - 🇺🇸 US(AzadNet.t.me)_189
-      - 🇺🇸 US(AzadNet.t.me)_187
-      - 🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
-      - 🇬🇧 GB(AzadNet.t.me)_020
-      - 🇬🇧 GB(AzadNet.t.me)_022
-      - LT(AzadNet.t.me)_001
-      - 欧盟 V2CROSS.COM
-      - VM-WS-NA 🏴‍☠️ NA-104.26.15.2298080 📡 PING-001.73-MS
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇳🇱 NL(AzadNet.t.me)_001
+      - 🇺🇸 US(AzadNet.t.me)_180
+      - 🇨🇦 加拿大 339
+      - 🇺🇸 美国_121320281
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇨🇦 加拿大 105
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 US(AzadNet.t.me)_184
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub
+      - 🇷🇺 RU(AzadNet.t.me)_003
+      - 🇷🇺 14|🇷🇺 俄罗斯|@ripaojiedian
       - 🇩🇪 _DE_德国 2
-      - 🇷🇸 _RS_塞尔维亚
-      - MX(AzadNet.t.me)
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - 🇵🇱 PL(AzadNet.t.me)_031
+      - 🇨🇿 捷克
       - 🇸🇪 |SE|瑞典|@wxgqlfx|25
-      - 🇵🇹 |PT|葡萄牙|@wxgqlfx|81
-      - LT(AzadNet.t.me)_002
+      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
+      - CR(AzadNet.t.me)_002
       - PE(AzadNet.t.me)
+      - 安徽省 移动数据上网公共出口
       - github.com/freefq - 欧盟  7
       - 🇪🇺 -欧洲-150.107.46.21
-      - 🇨🇿 捷克
-      - 🇪🇸 ES(AzadNet.t.me)_006
-      - CR(AzadNet.t.me)_002
-      - 🇷🇺 RU(AzadNet.t.me)_003
-      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Akamai Technologies, Inc. - 4
-      - 🇬🇧 英国 - 考文垂 - Stark Industries Solutions LTD - 6
+      - 🇷🇺 RU(AzadNet.t.me)_017
+      - _CN_中国->🇬🇮_GI_直布罗陀
+      - 亚太地区 V2CROSS.COM 2
+      - github.com/freefq - 欧盟  2
+      - 亚太地区 V2CROSS.COM 4
+      - MT(AzadNet.t.me)
+      - -3448-VN【ccbaohe.com〗 永久免费节点机场
+      - 🇷🇺 RU(AzadNet.t.me)_018
+      - GT(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_001
+      - 🇷🇺 RU(AzadNet.t.me)_024
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -453,49 +453,45 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 US(AzadNet.t.me)_008
+      - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 US(AzadNet.t.me)_009
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 _US_美国 14 3
-      - 🇺🇸 _US_美国 4 4
-      - 🇺🇸 US(AzadNet.t.me)_163
-      - 🇨🇦 加拿大 111
-      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
       - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇨🇦 加拿大 160
+      - 🇺🇸 US(AzadNet.t.me)_005
+      - 🇨🇦 CA(AzadNet.t.me)_014
+      - 🇨🇦 加拿大 158
+      - 🇺🇸 US(AzadNet.t.me)_163
+      - 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
+      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
+      - 🇺🇸 US(AzadNet.t.me)_120
       - 🇺🇸 US(AzadNet.t.me)_189
-      - 🇺🇸 US(AzadNet.t.me)_187
-      - 🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
+      - 🇺🇸 US(AzadNet.t.me)_180
+      - 🇨🇦 加拿大 339
+      - 🇺🇸 美国_121320281
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇨🇦 加拿大 105
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 US(AzadNet.t.me)_184
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 JP(AzadNet.t.me)_037
+      - 🇯🇵 JP(AzadNet.t.me)_038
+      - 🇯🇵 github.com/freefq - 日本阿里云 22
+      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP(AzadNet.t.me)_039
-      - "🇸🇬 CyberAirport-SG-04\r"
-      - 🇰🇷 韩国-3.80MB/s
       - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59
       - 🇯🇵 日本 01 | 专线
+      - 🇯🇵 JP(AzadNet.t.me)_009
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇯🇵 JP(AzadNet.t.me)_008
-      - 🇨🇳 台湾省桃园市 中华电信
-      - 🇯🇵 日本 V2CROSS.COM 2
-      - 🇨🇳 github.com/freefq - 台湾省  50
-      - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
+      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
@@ -506,7 +502,7 @@ proxy-groups:
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217
-      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
+      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164
       - 🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166
       - 🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152
@@ -516,47 +512,51 @@ proxy-groups:
       - 🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29
       - 🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158
       - 🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165
+      - 🇨🇳 github.com/freefq - 台湾省  50
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
       - 🇯🇵 -日本-43.206.229.96
       - 🇯🇵 -日本-43.201.33.9
       - 🇸🇬 -新加坡-51.79.222.99
       - 🇸🇬 -新加坡-kr1.vfun.icu
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32
       - 🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com
+      - 🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com
       - 🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com
       - "@wbnet_🇭🇰_HK_7"
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
+      - 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1
+      - 🇯🇵 日本 002
+      - 2.53|SG17210416531bf1a019d1959
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇬🇧 GB(AzadNet.t.me)_020
-      - 🇬🇧 GB(AzadNet.t.me)_022
-      - LT(AzadNet.t.me)_001
-      - 欧盟 V2CROSS.COM
-      - VM-WS-NA 🏴‍☠️ NA-104.26.15.2298080 📡 PING-001.73-MS
-      - 🇸🇪 瑞典 V2CROSS.COM
-      - 🇳🇱 NL(AzadNet.t.me)_001
+      - 🇷🇺 RU(AzadNet.t.me)_003
+      - 🇷🇺 14|🇷🇺 俄罗斯|@ripaojiedian
       - 🇩🇪 _DE_德国 2
-      - 🇷🇸 _RS_塞尔维亚
-      - MX(AzadNet.t.me)
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - 🇵🇱 PL(AzadNet.t.me)_031
+      - 🇨🇿 捷克
       - 🇸🇪 |SE|瑞典|@wxgqlfx|25
-      - 🇵🇹 |PT|葡萄牙|@wxgqlfx|81
-      - LT(AzadNet.t.me)_002
+      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
+      - CR(AzadNet.t.me)_002
       - PE(AzadNet.t.me)
+      - 安徽省 移动数据上网公共出口
       - github.com/freefq - 欧盟  7
       - 🇪🇺 -欧洲-150.107.46.21
-      - 🇨🇿 捷克
-      - 🇪🇸 ES(AzadNet.t.me)_006
-      - CR(AzadNet.t.me)_002
-      - 🇷🇺 RU(AzadNet.t.me)_003
-      - VM-TCP-NA 🇸🇪 SE-16.171.13.9543921 📡 PING-114.03-MS
-      - 🇸🇪 瑞典 - 斯德哥尔摩 - Akamai Technologies, Inc. - 4
-      - 🇬🇧 英国 - 考文垂 - Stark Industries Solutions LTD - 6
+      - 🇷🇺 RU(AzadNet.t.me)_017
+      - _CN_中国->🇬🇮_GI_直布罗陀
+      - 亚太地区 V2CROSS.COM 2
+      - github.com/freefq - 欧盟  2
+      - 亚太地区 V2CROSS.COM 4
+      - MT(AzadNet.t.me)
+      - -3448-VN【ccbaohe.com〗 永久免费节点机场
+      - 🇷🇺 RU(AzadNet.t.me)_018
+      - GT(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_002
+      - IM(AzadNet.t.me)_001
+      - 🇷🇺 RU(AzadNet.t.me)_024
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -570,28 +570,24 @@ proxy-groups:
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
-      - 🇺🇸 US(AzadNet.t.me)_008
+      - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 8 3
-      - 🇺🇸 US(AzadNet.t.me)_009
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 _US_美国 14 3
-      - 🇺🇸 _US_美国 4 4
-      - 🇺🇸 US(AzadNet.t.me)_163
-      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
       - 🇺🇸 US(AzadNet.t.me)_054
+      - 🇺🇸 US(AzadNet.t.me)_005
+      - 🇺🇸 US(AzadNet.t.me)_163
+      - 🇺🇸 V011--US-付费推荐dlj.tf/ssrsub
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
+      - 🇺🇸 fardian0142😍🇺🇸😍US😍336
+      - 🇺🇸 US(AzadNet.t.me)_120
       - 🇺🇸 US(AzadNet.t.me)_189
-      - 🇺🇸 US(AzadNet.t.me)_187
-      - 🇺🇸 [01-04]-🇺🇸-美国-703-161.35.69.20
-      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - 🇺🇸 美国-ss-162.251.61.221805-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.62.688881-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-167.88.63.992375-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-138.68.248.130811-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-107.182.177.136256-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-35.91.237.33443-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 加拿大-ss-38.64.138.531035-被墙-直连-解锁美国地区NF非自制剧
-      - 🇺🇸 美国-ss-mf01.xmss.vip18888-被墙-中转94.131.107.12-解锁美国地区NF非自制剧
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
+      - 🇺🇸 US(AzadNet.t.me)_180
+      - 🇺🇸 美国_121320281
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司 4
+      - 🇺🇸 _US_美国 5 4
+      - 🇺🇸 US(AzadNet.t.me)_184
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 V014--US-付费推荐dlj.tf/ssrsub
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -605,16 +601,17 @@ proxy-groups:
       - 🇭🇰 [01-04]-🇭🇰-香港-192-download1hkt.windowsupdatea.com
       - 🇭🇰 [01-04]-🇭🇰-香港-578-xg107.npv4.com
       - "@wbnet_🇭🇰_HK_7"
+      - 🇭🇰 github.com/mianfeifq |v2rayfree.eu.org - 香港阿里云 1
+      - 🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 59 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇸🇬 CyberAirport-SG-04\r"
+      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧
       - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 [01-04]-🇸🇬-新加坡-746-217.197.161.138
       - 🇸🇬 [01-04]-🇸🇬-新加坡-626-217.197.161.164
       - 🇸🇬 [01-04]-🇸🇬-新加坡-613-217.197.161.166
       - 🇸🇬 [01-04]-🇸🇬-新加坡-880-81.90.189.152
@@ -623,48 +620,47 @@ proxy-groups:
       - 🇸🇬 [01-04]-🇸🇬-新加坡-030-54.179.75.29
       - 🇸🇬 -新加坡-51.79.222.99
       - 🇸🇬 -新加坡-kr1.vfun.icu
-      - 🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2
+      - 2.53|SG17210416531bf1a019d1959
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 JP(AzadNet.t.me)_037
+      - 🇯🇵 JP(AzadNet.t.me)_038
+      - 🇯🇵 github.com/freefq - 日本阿里云 22
+      - 🇯🇵 JP(AzadNet.t.me)_041
       - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 JP(AzadNet.t.me)_039
       - 🇯🇵 日本 01 | 专线
-      - 🇯🇵 JP(AzadNet.t.me)_008
-      - 🇯🇵 日本 V2CROSS.COM 2
-      - 🇯🇵 日本-ss-45.66.134.176811-被墙-中转185.168.20.250-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.203807-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
-      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
+      - 🇯🇵 JP(AzadNet.t.me)_009
       - 🇯🇵 日本-ss-52.197.66.243443-被墙-直连-解锁日本地区NF非自制剧
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧
       - 🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-740-185.160.24.217
+      - 🇯🇵 日本-ss-193.38.139.204806-被墙-中转193.38.139.201-解锁日本地区NF非自制剧
       - 🇯🇵 [01-04]-🇯🇵-日本-705-43.207.66.60
       - 🇯🇵 [01-04]-🇯🇵-日本-707-172.104.123.158
       - 🇯🇵 [01-04]-🇯🇵-日本-555-172.105.244.165
       - 🇯🇵 -日本-43.206.229.96
       - 🇯🇵 -日本-43.201.33.9
+      - 🇯🇵 日本 002
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 台湾省桃园市 中华电信
       - 🇨🇳 github.com/freefq - 台湾省  50
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 32
+      - 🇨🇳 [01-04]-🇹🇼-台湾台北市-042-download1tw.windowsupdatea.com
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国-3.80MB/s
       - 🇯🇵 日本-vmess-146.56.40.11727675-被墙-直连-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧
       - 🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧
