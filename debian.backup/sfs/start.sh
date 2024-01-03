@@ -9,5 +9,5 @@ rm -rfv *.log
 cp -fv Country.mmdb .config/
 
 cp -fv "../../topfreeproxies/Eternity.yaml" ".config/config.yaml"
-sudo chmod u+x linux-amd64
+chmod u+x linux-amd64
 nohup ./linux-amd64 -f .config/config.yaml -d .config > linux-amd64.log 2>&1 & disown
