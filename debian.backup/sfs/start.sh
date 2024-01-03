@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-IP=127.0.0.1
-HTTP_PORT=7891
-SOCKS5_PORT=$((HTTP_PORT+1))
-#export http_proxy=http://${IP}:${HTTP_PORT} https_proxy=${IP}:${HTTP_PORT} all_proxy=socks5://${IP}:${SOCKS5_PORT}
-
 clear
 kill -9 $(ps -ef | grep -v grep | grep linux-amd64 | awk '{print $2}')
 if [ "$?" == "0"  ];then echo yes,i get linux-amd64 clash and kill it;else echo oh not get;fi
@@ -17,7 +12,8 @@ cp -fv "../../topfreeproxies/Eternity.yaml" ".config/config.yaml"
 sudo chmod u+x linux-amd64
 nohup ./linux-amd64 -f .config/config.yaml -d .config > linux-amd64.log 2>&1 & disown
 
-export http_proxy=http://${IP}:${HTTP_PORT} https_proxy=${IP}:${HTTP_PORT} all_proxy=socks5://${IP}:${SOCKS5_PORT}
+export IP=127.0.0.1 H_P=7891 S_P=7892
+export http_proxy=http://${IP}:${H_P} https_proxy=http://${IP}:${H_P} all_proxy=socks5://${IP}:${S_P} HTTP_PROXY=http://${IP}:${H_P} HTTPS_PROXY=http://${IP}:${H_P} ALL_PROXY=socks5://${IP}:${S_P}
 # Download mihomo
 if [ $(uname -m) = 'x86_64' ];then
     echo "is amd64"
@@ -28,7 +24,7 @@ if [ $(uname -m) = 'x86_64' ];then
 else
     echo "is not x86_64"
 fi
-unset http_proxy https_proxy all_proxy
+unset http_proxy https_proxy all_proxy HTTP_PROXY HTTPS_PROXY ALL_PROXY
 
 gunzip -f mihomo.gz
 
