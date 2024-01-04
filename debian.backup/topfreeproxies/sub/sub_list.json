@@ -371,7 +371,7 @@
     "id": 46,
     "remarks": "docker-amd64-custom-ubuntu-topfreeproxies",
     "site": "https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies",
-    "url": "https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies/raw/master/debian.backup/topfreeproxies/Eternity.yaml",
+    "url": "https://fastly.jsdelivr.net/gh/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies@master/debian.backup/topfreeproxies/Eternity.yaml",
     "update_method": "change_date",
     "enabled": true
   },
