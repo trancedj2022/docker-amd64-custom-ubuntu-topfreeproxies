@@ -13,7 +13,7 @@ services:
     networks:
       - app_net
     privileged: true
-    restart: always
+    restart: "no"
     logging:
       driver: json-file
       options:
